@@ -20,10 +20,10 @@ mv wordpress blog
 
 cd blog
 mv wp-config-sample.php wp-config.php
-sed -i 's/database_name_here/$DB_NAME/g' wp-config.php
-sed -i 's/username_here/$DB_USERNAME/g' wp-config.php
-sed -i 's/password_here/$DB_PASSWORD/g' wp-config.php
-sed -i 's/localhost/$DB_HOST/g' wp-config.php
+sed -i 's/database_name_here/'$DB_NAME'/g' wp-config.php
+sed -i 's/username_here/'$DB_USERNAME'/g' wp-config.php
+sed -i 's/password_here/'$DB_PASSWORD'/g' wp-config.php
+sed -i 's/localhost/'$DB_HOST'/g' wp-config.php
 
 service httpd start
 chkconfig httpd on 
