@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# set the parameters
+DB_NAME=blog
+DB_USERNAME=awsuser
+DB_PASSWORD=mypassword
+DB_HOST=mydbinstance.cfzvw6eveeul.eu-west-1.rds.amazonaws.com
+
 # update packages
 yum -y update
 # install Apache and PHP
