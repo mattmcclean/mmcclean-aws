@@ -1,0 +1,2 @@
+#include
+https://raw.github.com/mattmcclean/mmcclean-aws/master/scripts/install-wordpress.sh
