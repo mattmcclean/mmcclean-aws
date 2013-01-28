@@ -7,6 +7,9 @@ add-apt-repository ppa:saltstack/salt
 apt-get update
 apt-get upgrade -y
 
+# install git
+apt-get -y install git
+
 # install the salt master
 apt-get -y install salt-master
 
