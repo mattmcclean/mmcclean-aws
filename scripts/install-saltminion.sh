@@ -1,5 +1,7 @@
 #!/bin/sh
 
+SALT_MASTER=ec2-79-125-80-244.eu-west-1.compute.amazonaws.com
+
 add-apt-repository ppa:saltstack/salt -y
 apt-get update -y
 apt-get install salt-minion -y
